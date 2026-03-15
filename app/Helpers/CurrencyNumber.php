@@ -24,7 +24,7 @@ class CurrencyNumber
                     \$event.target.value = new Intl.NumberFormat('id-ID').format(val);
                 ",
             ])
-            ->formatStateUsing(fn($state) => $state ? number_format((float)$state, 0, ',', '.') : '')
-            ->dehydrateStateUsing(fn($state) => $state ? (int) str_replace(['.', ',', ' '], '', $state) : null);
+            ->formatStateUsing(fn ($state) => $state ? number_format((float) $state, 0, ',', '.') : '')
+            ->dehydrateStateUsing(fn ($state) => $state ? (int) str_replace(['.', ',', ' '], '', $state) : null);
     }
 }

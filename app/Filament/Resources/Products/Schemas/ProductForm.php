@@ -33,7 +33,7 @@ class ProductForm
                     ->schema([
                         TextInput::make('name')
                             ->live(onBlur: true)
-                            ->afterStateUpdated(fn(Set $set, ?string $state) => $set('slug', Str::slug($state)))
+                            ->afterStateUpdated(fn (Set $set, ?string $state) => $set('slug', Str::slug($state)))
                             ->required(),
                         TextInput::make('slug')
                             ->unique(ignoreRecord: true)
@@ -43,7 +43,7 @@ class ProductForm
                     ->columnSpanFull(),
                 CurrencyNumber::rupiahInput('price', ('Price')),
                 RichEditor::make('description')
-                    ->dehydrateStateUsing(fn($state) => strip_tags($state))
+                    ->dehydrateStateUsing(fn ($state) => strip_tags($state))
                     ->columnSpanFull(),
                 FileUpload::make('image')
                     ->disk('public')
