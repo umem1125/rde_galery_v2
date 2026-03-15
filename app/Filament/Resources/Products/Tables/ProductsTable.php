@@ -34,6 +34,7 @@ class ProductsTable
                     })
                     ->searchable(),
                 ImageColumn::make('image')
+                    ->disk('public')
                     ->imageHeight(100),
                 TextColumn::make('stock')
                     ->numeric()

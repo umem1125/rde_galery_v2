@@ -43,8 +43,10 @@ class ProductForm
                     ->columnSpanFull(),
                 CurrencyNumber::rupiahInput('price', ('Price')),
                 RichEditor::make('description')
+                    ->dehydrateStateUsing(fn($state) => strip_tags($state))
                     ->columnSpanFull(),
                 FileUpload::make('image')
+                    ->disk('public')
                     ->columnSpanFull()
                     ->image(),
                 TextInput::make('stock')
