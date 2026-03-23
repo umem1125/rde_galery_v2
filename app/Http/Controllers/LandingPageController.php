@@ -24,4 +24,14 @@ class LandingPageController extends Controller
             'testimonies' => $testimonies,
         ]);
     }
+    public function home_new()
+    {
+        $products = Product::all();
+        $testimonies = Testimony::all();
+
+        return view('home2', [
+            'products' => $products,
+            'testimonies' => $testimonies,
+        ]);
+    }
 }
