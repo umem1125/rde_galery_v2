@@ -1,6 +1,6 @@
 <div class="reveal" style="text-align:center;margin-bottom:4rem;">
     {{-- decorrative flowers --}}
-    <x-svg.flowers />
+    <x-svg.new-flowers />
 
     <p style="font-size:0.7rem;font-weight:500;letter-spacing:0.3em;text-transform:uppercase;color:#C9A96E;margin-bottom:0.75rem;">Our Collection</p>
     <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,6vw,4rem);color:#F0EAE0;margin-bottom:1rem;">

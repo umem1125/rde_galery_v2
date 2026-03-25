@@ -1,4 +1,6 @@
 <section id="about" style="padding:6rem 1.5rem;background:linear-gradient(160deg,#0D0D18 0%,#0A0A0F 50%,#0F0A14 100%);position:relative;overflow:hidden;">
+    <x-svg.new-flowers />
+
     <div style="position:absolute;top:0;right:0;width:28rem;height:28rem;border-radius:9999px;background:rgba(201,169,110,0.04);filter:blur(80px);pointer-events:none;"></div>
     <div style="position:absolute;bottom:0;left:0;width:20rem;height:20rem;border-radius:9999px;background:rgba(201,151,154,0.05);filter:blur(64px);pointer-events:none;"></div>
     <div style="position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,rgba(201,169,110,0.2),transparent);"></div>
