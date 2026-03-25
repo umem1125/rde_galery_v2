@@ -19,13 +19,13 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        Category::factory(5)
-            ->has(Product::factory()->count(10))
+        Category::factory()
+            ->has(Product::factory()->count(1))
             ->create();
 
         User::factory()->create([
-            'name' => 'dev',
-            'email' => 'dev@rdegalery.com',
+            'name' => 'rdegalery',
+            'email' => 'admin@rdegalery.com',
         ]);
     }
 }

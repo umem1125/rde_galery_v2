@@ -25,8 +25,8 @@ class ProductFactory extends Factory
             'category_id' => Category::factory(),
             'slug' => str($name)->slug(),
             'price' => $this->faker->randomNumber(5),
-            'description' => $this->faker->paragraph(),
-            'stock' => $this->faker->numberBetween(1, 100),
+            'description' => null,
+            'stock' => null,
             'is_active' => true,
         ];
     }

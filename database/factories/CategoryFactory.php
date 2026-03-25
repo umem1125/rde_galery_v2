@@ -17,11 +17,9 @@ class CategoryFactory extends Factory
      */
     public function definition(): array
     {
-        $name = $this->faker->word();
-
-        return [
-            'name' => ucfirst($name),
-            'slug' => str($name)->slug(),
-        ];
+        return $this->faker->randomElement([
+            ['name' => 'Besar', 'slug' => 'besar'],
+            ['name' => 'Kecil', 'slug' => 'kecil'],
+        ]);
     }
 }
