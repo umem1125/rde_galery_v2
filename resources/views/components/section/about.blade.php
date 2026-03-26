@@ -11,7 +11,7 @@
 
         <!-- Visual grid -->
         {{-- <x-section.about.visual-grid /> --}}
-        <div class="reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="reveal" id="about-visual-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
             @php
                 $productGrids = \App\Models\ProductGrid::all();
             @endphp
