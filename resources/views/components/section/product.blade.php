@@ -12,8 +12,8 @@
     </div>
     <div style="padding:1.5rem;flex-grow:1;display:flex;flex-direction:column;">
         <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:600;color:#F0EAE0;margin:0 0 0.4rem;">
-            {{-- {{ $product->name }} --}}
-            Rde Galery Brooch Premium
+            {{ $product->name }}
+            {{-- Rde Galery Brooch Premium --}}
         </h3>
         <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1.5rem;">
             <div style="display:flex; flex-direction:column; gap:0.15rem;">
