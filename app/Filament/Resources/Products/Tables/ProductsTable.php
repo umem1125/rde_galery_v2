@@ -33,6 +33,16 @@ class ProductsTable
                         return $idr;
                     })
                     ->searchable(),
+                TextColumn::make('cross_price')
+                    ->label('Harga Coret')
+                    ->prefix('Rp. ')
+                    ->formatStateUsing(function ($state, $record) {
+                        $idr = number_format($record->cross_price, 0, ',', '.');
+
+                        return $idr;
+                    })
+                    ->color('gray')
+                    ->searchable(),
                 ImageColumn::make('image')
                     ->disk('public')
                     ->imageHeight(100),

@@ -16,14 +16,23 @@
             Rde Galery Brooch Premium
         </h3>
         <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1.5rem;">
-            <span style="font-size:0.9rem;color:rgba(240,234,224,0.4);">
-                Rp {{ number_format($product->price, 0, ',', '.') }}
-            </span>
+            <div style="display:flex; flex-direction:column; gap:0.15rem;">
+                <span style="font-size:0.9rem;color:rgba(240,234,224,0.4);">
+                    Rp {{ number_format($product->price, 0, ',', '.') }}
+                </span>
+
+                {{-- Harga Coret --}}
+                @if($product->cross_price)
+                    <span style="font-size:0.75rem; color:rgba(240,234,224,0.25); text-decoration:line-through; font-style:italic;">
+                        Rp {{ number_format($product->cross_price, 0, ',', '.') }}
+                    </span>
+                @endif
+            </div>
             
-            <span style="font-size:0.65rem; color:#C9A96E; border:1px solid rgba(201,169,110,0.3); padding:0.1rem 0.4rem; border-radius:0.4rem; text-transform:cappitalize; letter-spacing:0.05em;">
+            <span style="font-size:0.65rem; color:#C9A96E; border:1px solid rgba(201,169,110,0.3); padding:0.1rem 0.4rem; border-radius:0.4rem; text-transform:capitalize; letter-spacing:0.05em;">
                 {{ $product->category->name }}
             </span>
-    </div>
+        </div>
         <div style="display:flex;gap:0.5rem;margin-top:auto;">
 
             {{-- WhatsApp --}}
