@@ -61,7 +61,7 @@
                         <img src="{{ asset('image/products/img_1.png') }}" alt="Product" style="max-width:100%;max-height:100%;">
                         <p style="font-family:'Cormorant Garamond',serif;font-size:0.8rem;color:rgba(240,234,224,0.4);font-style:italic;margin-top:0.5rem;">Featured Piece</p>
                     </div> --}}
-                    <img src="{{ asset('image/products/img_1.png') }}" alt="Product"
+                    <img src="{{ asset('image/products/hero_bros_new.png') }}" alt="Product"
                         style="width:100%;height:400px;object-fit:cover;display:block;">
                     <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center;">
                         <p style="font-family:'Cormorant Garamond',serif;font-size:0.75rem;color:rgba(240,234,224,0.4);font-style:italic;margin:0;text-shadow:0 1px 4px rgba(0,0,0,0.8);">Featured Piece</p>
