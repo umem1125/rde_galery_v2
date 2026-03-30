@@ -13,7 +13,9 @@ class ProductGridForm
             ->components([
                 FileUpload::make('image')
                     ->disk('public')
-                    ->image(),
+                    ->image()
+                    ->acceptedFileTypes(['image/png', 'image/webp', 'image/jpg', 'image/jpeg'])
+                    ->maxSize(2048),
             ]);
     }
 }
