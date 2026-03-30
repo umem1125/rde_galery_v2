@@ -48,8 +48,10 @@ class ProductForm
                     ->columnSpanFull(),
                 FileUpload::make('image')
                     ->disk('public')
+                    ->acceptedFileTypes(['image/png', 'image/webp', 'image/jpg', 'image/jpeg'])
                     ->columnSpanFull()
-                    ->image(),
+                    ->image()
+                    ->maxSize(2048),
                 TextInput::make('stock')
                     ->numeric(),
             ]);
