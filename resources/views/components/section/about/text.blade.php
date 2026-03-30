@@ -11,15 +11,15 @@
     </p>
     <div id="about-stats" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
         <div style="text-align:center;padding:1.25rem 0.75rem;border-radius:1rem;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);">
-            <p style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:#C9A96E;margin:0 0 0.25rem;">500+</p>
+            <p style="font-family:'Roboto',serif;font-size:2rem;font-weight:600;color:#C9A96E;margin:0 0 0.25rem;">500+</p>
             <p style="font-size:0.6rem;color:rgba(240,234,224,0.4);letter-spacing:0.12em;text-transform:uppercase;margin:0;">Happy Customers</p>
         </div>
         <div style="text-align:center;padding:1.25rem 0.75rem;border-radius:1rem;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);">
-            <p style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:#C9A96E;margin:0 0 0.25rem;">48h</p>
+            <p style="font-family:'Roboto',serif;font-size:2rem;font-weight:600;color:#C9A96E;margin:0 0 0.25rem;">48h</p>
             <p style="font-size:0.6rem;color:rgba(240,234,224,0.4);letter-spacing:0.12em;text-transform:uppercase;margin:0;">Handcraft Time</p>
         </div>
         <div style="text-align:center;padding:1.25rem 0.75rem;border-radius:1rem;background:rgba(201,169,110,0.05);border:1px solid rgba(201,169,110,0.1);">
-            <p style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:#C9A96E;margin:0 0 0.25rem;">100%</p>
+            <p style="font-family:'Roboto',serif;font-size:2rem;font-weight:600;color:#C9A96E;margin:0 0 0.25rem;">100%</p>
             <p style="font-size:0.6rem;color:rgba(240,234,224,0.4);letter-spacing:0.12em;text-transform:uppercase;margin:0;">Handmade</p>
         </div>
     </div>
