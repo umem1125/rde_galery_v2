@@ -47,6 +47,7 @@ class ProductForm
                     ->dehydrateStateUsing(fn($state) => strip_tags($state))
                     ->columnSpanFull(),
                 FileUpload::make('image')
+                    ->helperText('*Rekomendasi untuk ukuran gambar yang di-upload < 1MB')
                     ->disk('public')
                     ->acceptedFileTypes(['image/png', 'image/webp', 'image/jpg', 'image/jpeg'])
                     ->columnSpanFull()
