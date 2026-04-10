@@ -52,32 +52,27 @@
         </div>
 
         <!-- Hero visual -->
-        <div style="display:flex;justify-content:center;">
+        {{-- <div style="display:flex;justify-content:center;">
             <div style="position:relative;width:18rem;height:18rem;">
                 <div class="spin-ring" style="position:absolute;inset:0;border-radius:9999px;border:2px dashed rgba(201,169,110,0.2);"></div>
                 <div style="position:absolute;inset:1.5rem;border-radius:9999px;background:radial-gradient(circle,rgba(201,169,110,0.08),rgba(201,151,154,0.05));"></div>
                 <div style="position:absolute;inset:3rem;border-radius:9999px;overflow:hidden;box-shadow:0 0 60px rgba(201,169,110,0.15);ring:4px;border:2px solid rgba(201,169,110,0.2);display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#16161F,#111118);">
-                    {{-- <div style="text-align:center;padding:1.5rem;">
+                    <div style="text-align:center;padding:1.5rem;">
                         <img src="{{ asset('image/products/img_1.png') }}" alt="Product" style="max-width:100%;max-height:100%;">
                         <p style="font-family:'Cormorant Garamond',serif;font-size:0.8rem;color:rgba(240,234,224,0.4);font-style:italic;margin-top:0.5rem;">Featured Piece</p>
-                    </div> --}}
-                    <img src="{{ asset('image/products/hero_bros_new.png') }}" alt="Product"
-                        style="width:100%;height:400px;object-fit:cover;display:block;">
-                    <div style="position:absolute;bottom:0.75rem;left:0;right:0;text-align:center;">
-                        <p style="font-family:'Cormorant Garamond',serif;font-size:0.75rem;color:rgba(240,234,224,0.4);font-style:italic;margin:0;text-shadow:0 1px 4px rgba(0,0,0,0.8);">Featured Piece</p>
                     </div>
                 </div>
                 <!-- Chips -->
-                {{-- <div style="position:absolute;top:-1rem;right:-2rem;background:#16161F;border-radius:1rem;padding:0.5rem 1rem;border:1px solid rgba(201,169,110,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.4);">
+                <div style="position:absolute;top:-1rem;right:-2rem;background:#16161F;border-radius:1rem;padding:0.5rem 1rem;border:1px solid rgba(201,169,110,0.2);box-shadow:0 4px 24px rgba(0,0,0,0.4);">
                     <p style="font-size:0.65rem;color:rgba(240,234,224,0.4);margin:0;">New In</p>
                     <p style="font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:600;color:#F0EAE0;margin:0;">Spring '26</p>
-                </div> --}}
+                </div>
                 <div style="position:absolute;bottom:-1rem;left:-2rem;background:linear-gradient(135deg,#C9A96E,#E8CFA0);border-radius:1rem;padding:0.5rem 1rem;box-shadow:0 4px 24px rgba(201,169,110,0.3);">
                     <p style="font-size:0.65rem;color:rgba(10,10,15,0.6);margin:0;">Starting from</p>
                     <p style="font-family:'Montserrat',serif;font-size:1.1rem;font-weight:700;color:#0A0A0F;margin:0;">Rp 45.000</p>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
     </div>
 
