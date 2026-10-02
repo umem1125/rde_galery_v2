@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rde Galery</title>
+    <meta name="robots" content="index, follow">
+    <meta
+        name="description"
+        content="Rde Galery menghadirkan koleksi perhiasan elegan dan pilihan gemstone dengan desain berkelas untuk melengkapi setiap momen istimewa."
+    >
+    <meta name="author" content="Rde Galery">
+    <meta property="og:title" content="Rde Galery — Elegant Jewelry & Gemstone Collection">
+    <meta property="og:description" content="Discover elegant jewelry and gemstone collections from Rde Galery.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:site_name" content="Rde Galery">
+
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <title>Rde Galery — Elegant Jewelry & Gemstone Collection</title>
+
+    <link rel="icon" type="image/png" href="{{ asset('image/favicon/favicon-32x32.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
